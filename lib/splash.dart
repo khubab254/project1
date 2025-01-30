@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:splash/sin-in.dart';
+import 'package:splash/views/auth_views/sin-in.dart';
 class Splash extends StatefulWidget {
   const Splash({super.key});
 
