@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:splash/welcome.dart';
+import 'package:splash/views/spalsh_view/welcome.dart';
 
 class Createaccount extends StatefulWidget {
   const Createaccount({super.key});
