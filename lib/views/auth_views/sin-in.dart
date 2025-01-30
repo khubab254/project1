@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:splash/controller/components/text-component.dart';
 import 'package:splash/createaccount.dart';
 
 class Sinin extends StatefulWidget {
@@ -34,7 +35,8 @@ class _SininState extends State<Sinin> {
             ),
           ),),
           SizedBox(height: 20,),
-          Text('Enter Your Password',style: TextStyle(color: Colors.white),),
+          TextWidget(text: 'Enter Your password'),
+          //Text('Enter Your Password',style: TextStyle(color: Colors.white),),
           SizedBox(height: 10,),
           Container(
             height: 50,
